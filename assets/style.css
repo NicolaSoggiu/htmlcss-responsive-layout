@@ -208,23 +208,38 @@ nav .nav-menu .nav-btn{
     margin-bottom: 3rem;
 }
 
-.container-partners .nat-reynold{
-    display: flex;
-    background-color: #9792E4;
+.container-partners .title-partners{
+    color: #9792E4;
 }
 
-.nat-reynold .reynold-img{
+.container-partners > p{
+    text-align: center;
+}
+
+.container-partners .partner-card{
+    display: flex;
+    color: white;
+    background-color: #9792E4;
+    border-radius: 20px;
+}
+
+.partner-card .partner-img{
     flex-basis: 40%;
     padding-right: 2rem;
 }
 
-.nat-reynold .reynold-img img{
-    width: 100%
+.partner-card .partner-img img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    object-fit: cover;
+    padding: 1rem;
 }
 
-.nat-reynold .reynold-text .partner-description{
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+.partner-card .partner-text .partner-description{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    font-size: 1rem;
 }
 
 /* section benefits */
