@@ -173,6 +173,7 @@ nav .nav-menu .nav-btn{
 .container-benefits{
     width: 70%;
     margin: auto;
+    padding-bottom: 3rem;
 }
 
 .container-benefits .benefit-title{
@@ -225,6 +226,20 @@ nav .nav-menu .nav-btn{
 }
 
 .container-try{
+    width: 30%;
+    margin: auto;
+    padding-top: 3rem;
+    text-align: center;
+}
+
+/* footer */
+
+footer{
+    background-color: #333333;
+    color: white;
+}
+
+footer .footer-text{
     width: 30%;
     margin: auto;
     padding-top: 3rem;
