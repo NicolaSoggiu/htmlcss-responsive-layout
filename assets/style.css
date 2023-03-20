@@ -409,4 +409,15 @@ footer{
 footer .footer-text{
     width: 30%;
     margin: auto;
+    padding-top: 2rem;
+}
+
+.footer-text .second-paragraph{
+    padding-top: 2rem;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.footer-text .second-paragraph > a{
+    color: #9792E4;
 }
