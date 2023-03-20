@@ -6,6 +6,11 @@
 
 /* general */
 
+h3{
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
 /* header */
 
 header{
@@ -47,6 +52,7 @@ nav .nav-menu .nav-btn{
 
 .functions{
     margin-top: 2.5rem;
+    margin-bottom: 3.5rem;
 }
 
 .container-function{
@@ -72,24 +78,82 @@ nav .nav-menu .nav-btn{
 
 /* section strategic planning */
 
-.container-strategic{
+.container-strategic, .container-partners{
     width: 70%;
     margin: auto;
     display: flex;
-    height: 400px;
-    gap: 1rem;
+    gap: 1.5rem;
     padding: 5rem;
-
 }
 
 .strategic-planning{
     background-color: #9792E4;
 }
 
+.container-strategic .strategic-img{
+    text-align: left;
+    color: white;
+    flex-basis: 50%;
+}
+
 .container-strategic .strategic-img img{
-    width: 50%;
+    width: 100%;
+    padding-bottom: 3rem;
+}
+
+.container-strategic .app-developement{
+    background-color: white;
+    height: max-content;
+    text-align: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 30px;
+    margin-top: 9rem;
+    flex-basis: 50%;
 }
 
 .container-strategic .app-developement img{
-    width: 50%;
+    width: 100%;
+}
+
+.fa-arrow-down{
+    color: black;
+    background-color: #9792E4;
+    border-radius: 50%;
+    margin-top: 2rem;
+    padding: 1rem;
+
+}
+
+.strategic-title{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+/* section partners */
+
+.container-partners{
+    flex-direction: column;
+    align-items: center;
+}
+
+.nat-reynold{
+    display: flex;
+    background-color: #9792E4;
+}
+
+.reynold-img{
+    flex-basis: 40%;
+    padding-right: 2rem;
+}
+
+.reynold-img img{
+    width: 100%
+}
+
+.partner-description{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 }
