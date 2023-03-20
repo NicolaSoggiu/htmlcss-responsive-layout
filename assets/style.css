@@ -11,6 +11,10 @@ h3{
     padding-top: 1rem;
 }
 
+h4{
+    padding-bottom: 1rem;
+}
+
 /* header */
 
 header{
@@ -37,6 +41,7 @@ nav .nav-menu{
     display: flex;
     list-style: none;
     gap: 2rem;
+    padding-right: 3.7rem;
 }
 
 nav .nav-menu .nav-btn{
@@ -60,20 +65,78 @@ nav .nav-menu .nav-btn{
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    height: 400px;
     gap: 1rem;
 }
 
 .container-function .card, .card-demo{
     background-color: #B5DDFF;
+    border-radius: 10px;
 }
 
 .container-function .card{
-    flex-basis: calc(100% / 3 - 2rem)
+    flex-basis: calc(100% / 3 - 2rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card .fa-solid{
+    font-size: 3rem;
+    color: #0084FD;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.card .title-card{
+    color: #0084FD;
+}
+
+.card .paragraph-card{
+    font-size: .8rem;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-inline: 1rem;
 }
 
 .container-function .card-demo{
-    flex-basis: 61.4%; /*da sistemare la larghezza*/
+    flex-basis: 61.4%; /*da sistemare la larghezza*/   
+    display: flex;
+}
+
+.card-demo .demo-text{
+    flex-basis: 60%;
+    padding: 1rem;
+    padding-bottom: 2rem;
+}
+
+.card-demo .demo-text .title-demo{
+    color: #0084FD;
+}
+
+.card-demo .demo-text .lorem-demo{
+    margin-bottom: 3rem;
+}
+
+.card-demo .demo-text .apple-store{
+    color: white;
+    background-color: #0084FD;
+    padding: .5rem;
+    border-radius: 50px;
+}
+
+.card-demo .demo-img{
+    flex-basis: 40%;
+    position: relative;
+}
+
+.card-demo .demo-img img{
+    width: 60%;
+    position: absolute;
+    right: 1;
+    bottom: 0;
+    
 }
 
 /* section strategic planning */
@@ -242,6 +305,4 @@ footer{
 footer .footer-text{
     width: 30%;
     margin: auto;
-    padding-top: 3rem;
-    text-align: center;
 }
