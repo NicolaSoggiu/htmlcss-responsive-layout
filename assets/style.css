@@ -202,6 +202,7 @@ nav .nav-menu .nav-btn{
     margin: auto;
     display: flex;
     margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 .about-us .about-text{
@@ -215,4 +216,17 @@ nav .nav-menu .nav-btn{
 
 .about-us .about-profile img{
     width: 30%;
+}
+
+/* section try */
+
+.try{
+    background-color: #9792E4;
+}
+
+.container-try{
+    width: 30%;
+    margin: auto;
+    padding-top: 3rem;
+    text-align: center;
 }
