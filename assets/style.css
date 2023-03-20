@@ -270,8 +270,36 @@ nav .nav-menu .nav-btn{
 
 .points .point{
     flex-basis: calc(100% / 3 - 1rem);
-    height: 200px;
-    background-color: red;
+    border-radius: 20px;
+    background-color: white;
+    padding-top: 2rem;
+    padding-inline: 1.5rem;
+}
+
+.points .point > .fa-solid{
+    color: #9792E4;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.points .point > h5{
+    color: #9792E4;
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+}
+
+.points .point .fa-0{
+    padding-right: .5rem;
+}
+
+.points .point > p{
+    padding-bottom: 2rem;
+}
+
+.btn-benefits{
+    background-color: #9792E4;
+    border-radius: 20px;
+    padding: 1rem;
 }
 
 /* section about-us */
