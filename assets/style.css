@@ -354,6 +354,7 @@ nav .nav-menu .nav-btn{
 
 .try{
     background-color: #9792E4;
+    padding-bottom: 2rem;
 }
 
 .container-try{
@@ -361,6 +362,41 @@ nav .nav-menu .nav-btn{
     margin: auto;
     padding-top: 3rem;
     text-align: center;
+}
+
+.container-try .text-try{
+    color: grey;
+}
+
+.container-try > h4{
+    color: white;
+    font-size: 1.3rem;
+    padding-top: 1rem;
+}
+
+.container-try > h2{
+    color: #FDC15F;
+    font-size: 3rem;
+    padding-bottom: 1rem;
+}
+
+.container-try > span {
+    color: white;
+    font-size: .9rem;
+}
+
+.container-try .started{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.btn-try{
+    color: #9792E4;
+    background-color: white;
+    padding-inline: 2.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 20px;
 }
 
 /* footer */
