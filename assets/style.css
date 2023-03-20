@@ -49,7 +49,7 @@ nav .nav-menu .nav-btn{
     margin-top: 2.5rem;
 }
 
-.container{
+.container-function{
     width: 70%;
     margin: auto;
     display: flex;
@@ -58,12 +58,38 @@ nav .nav-menu .nav-btn{
     gap: 1rem;
 }
 
-.container .card{
+.container-function .card, .card-demo{
     background-color: #B5DDFF;
+}
+
+.container-function .card{
     flex-basis: calc(100% / 3 - 2rem)
 }
 
-.card-demo{
+.container-function .card-demo{
     flex-basis: 61.4%; /*da sistemare la larghezza*/
-    background-color: red;
+}
+
+/* section strategic planning */
+
+.container-strategic{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    height: 400px;
+    gap: 1rem;
+    padding: 5rem;
+
+}
+
+.strategic-planning{
+    background-color: #9792E4;
+}
+
+.container-strategic .strategic-img img{
+    width: 50%;
+}
+
+.container-strategic .app-developement img{
+    width: 50%;
 }
