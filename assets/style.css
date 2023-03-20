@@ -4,9 +4,15 @@
     box-sizing: border-box;
 }
 
+/* general */
+
+/* header */
+
 header{
     background-color: #0084FD;
 }
+
+/* nav */
 
 nav{
     width: 70%;
@@ -28,7 +34,36 @@ nav .nav-menu{
     gap: 2rem;
 }
 
-.nav-btn{
+nav .nav-menu .nav-btn{
     color: black;
     background-color: white;
+    padding-inline: .5rem;
+    border-radius: 20px;
+}
+
+/* main */
+
+/* section functions */
+
+.functions{
+    margin-top: 2.5rem;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    gap: 1rem;
+}
+
+.container .card{
+    background-color: #B5DDFF;
+    flex-basis: calc(100% / 3 - 2rem)
+}
+
+.card-demo{
+    flex-basis: 61.4%; /*da sistemare la larghezza*/
+    background-color: red;
 }
