@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* general */
@@ -184,7 +185,7 @@ nav .nav-menu .nav-btn{
 .fa-arrow-down{
     color: black;
     background-color: #9792E4;
-    border-radius: 50%;
+    border-radius: 40px;
     margin-top: 2rem;
     padding: 1rem;
 
