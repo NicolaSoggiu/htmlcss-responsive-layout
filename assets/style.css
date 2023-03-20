@@ -78,7 +78,7 @@ nav .nav-menu .nav-btn{
 
 /* section strategic planning */
 
-.container-strategic, .container-partners{
+.container-strategic{
     width: 70%;
     margin: auto;
     display: flex;
@@ -137,6 +137,12 @@ nav .nav-menu .nav-btn{
 .container-partners{
     flex-direction: column;
     align-items: center;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 .container-partners .nat-reynold{
@@ -156,4 +162,35 @@ nav .nav-menu .nav-btn{
 .nat-reynold .reynold-text .partner-description{
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
+}
+
+/* section benefits */
+
+.benefits{
+    background-color: #9792E4;
+}
+
+.container-benefits{
+    width: 70%;
+    margin: auto;
+}
+
+.container-benefits .benefit-title{
+    color: white;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.points{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding-top: 3rem;
+    justify-content: space-between;
+}
+
+.points .point{
+    flex-basis: calc(100% / 3 - 1rem);
+    height: 200px;
+    background-color: red;
 }
