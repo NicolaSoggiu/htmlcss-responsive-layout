@@ -194,3 +194,25 @@ nav .nav-menu .nav-btn{
     height: 200px;
     background-color: red;
 }
+
+/* section about-us */
+
+.about-us{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    margin-top: 3rem;
+}
+
+.about-us .about-text{
+    flex-basis: 70%;
+    padding-right: 1rem;
+}
+
+.about-us .about-profile{
+    flex-basis: 30%;
+}
+
+.about-us .about-profile img{
+    width: 30%;
+}
