@@ -127,7 +127,7 @@ nav .nav-menu .nav-btn{
 
 }
 
-.strategic-title{
+.container-strategic .strategic-img .strategic-title{
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
@@ -139,21 +139,21 @@ nav .nav-menu .nav-btn{
     align-items: center;
 }
 
-.nat-reynold{
+.container-partners .nat-reynold{
     display: flex;
     background-color: #9792E4;
 }
 
-.reynold-img{
+.nat-reynold .reynold-img{
     flex-basis: 40%;
     padding-right: 2rem;
 }
 
-.reynold-img img{
+.nat-reynold .reynold-img img{
     width: 100%
 }
 
-.partner-description{
+.nat-reynold .reynold-text .partner-description{
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
 }
