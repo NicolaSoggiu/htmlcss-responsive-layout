@@ -1,0 +1,23 @@
+metterle in fila su sigma e sistemare le grandezze dello screenshot;
+
+
+l'header diventa hamburger nel tablet e mobile (non deve funzionare perchè ci vorrebbe javascript); il menu quando è pieno diventa cosi senza per forza aspettare una larghezza predefinita; il simbolo deve esistere anche sul desktop ma lo nascondiamo; (se diamo display none non viene più calcolato e quindi possiamo usare lo space between con gli altri elementi visibili)
+la navbar è limitata in larghezza, come il container sotto di lei.
+
+
+1 section: nel tablet la prima card cambia con l'immagine che va sotto il testo, nel telefono si dispongono uno sotto all'altro, rimane tutto uguale tranne l'immagine che non è allineata a sinistra ma viene centrata;
+(per metterle in riga 2 sopra e 3 sotto basta dare una flex basis alla prima che sia il doppio delle altre e poi usare il flex wrap);
+
+2 section: container più piccolo oppure lavorare con margin e padding, due div uno flexato a sinistra e l'immagine a destra, nel tablet si può togliere il flex oppure mettere column, nel mobile è uguale solo con meno spazio;
+
+3 section: tre card una sotto all'altra, non cambia nel table, nel mobile cambia il layout della card e l'immagine ha il testo sotto. (flex column); per arrotondare l'immagine lavorare con l'overflow del container;(per mettere l'immagine al centro object fit(cover)/object position(center) se abbiamo dato dimensione all'immagine, se abbiamo dato un container all'imagine allora centriamo con flex);
+
+4 sezione: sfondo colorato a tutto schermo quindi sezione a 100% e container dentro limitato, la differenza con la prima section e che da 3 colonne qua va a 2 e poi a 1 in mobile; all'interno non cambia la cella;
+
+5 sezione: tra desktop e tablet non cambia niente mentre nel telefono è tutto in colonna, abbiamo due sezioni affiancate con flex e nel mobile column; l'effetto dell'immagine si fa con due apostrofi enormi e position;
+
+6 sezione: ristretta nel desktop non cambia nulla nel tablet e mobile;
+
+(non usare mai il br per andare a capo, devono essere naturali, al massimo riduco il container per far andare a capo prima)
+
+(Nel telefono magari riduzione del carattere)
