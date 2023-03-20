@@ -313,16 +313,41 @@ nav .nav-menu .nav-btn{
 }
 
 .about-us .about-text{
-    flex-basis: 70%;
-    padding-right: 1rem;
+    flex-basis: 75%;
+    padding-right: 2rem;
+}
+
+.about-us .about-text > h2{
+    color: #9792E4;
+    padding-bottom: 2rem;
+}
+
+.about-us .about-text > p{
+    padding-bottom: 2rem;
 }
 
 .about-us .about-profile{
-    flex-basis: 30%;
+    flex-basis: 25%;
+}
+
+.about-us .about-profile > p{
+    color: #9792E4;
+    font-size: 1.2rem;
+    padding-bottom: 1.5rem;
+    text-align: left;
 }
 
 .about-us .about-profile img{
-    width: 30%;
+    width: 60%;
+    padding-bottom: 1rem;
+    border-radius: 50%;
+}
+
+.about-us .about-profile .btn-linkedin{
+    background-color: #9792E4;
+    color: white;
+    padding: .5rem;
+    border-radius: 20px;
 }
 
 /* section try */
