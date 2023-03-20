@@ -106,7 +106,7 @@ nav .nav-menu .nav-btn{
 }
 
 .card-demo .demo-text{
-    flex-basis: 60%;
+    flex-basis: 70%;
     padding: 1rem;
     padding-bottom: 2rem;
 }
@@ -127,12 +127,12 @@ nav .nav-menu .nav-btn{
 }
 
 .card-demo .demo-img{
-    flex-basis: 40%;
+    flex-basis: 30%;
     position: relative;
 }
 
 .card-demo .demo-img img{
-    width: 60%;
+    width: 80%;
     position: absolute;
     right: 1;
     bottom: 0;
@@ -297,9 +297,16 @@ nav .nav-menu .nav-btn{
 }
 
 .btn-benefits{
+    padding-bottom: 2rem;
+}
+
+.btn-benefits .btn-more{
     background-color: #9792E4;
+    color: white;
     border-radius: 20px;
-    padding: 1rem;
+    padding-inline: 2rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
 }
 
 /* section about-us */
@@ -340,7 +347,10 @@ nav .nav-menu .nav-btn{
 .about-us .about-profile img{
     width: 60%;
     padding-bottom: 1rem;
-    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /*capire come fare il bordo*/
+    object-fit: cover;
 }
 
 .about-us .about-profile .btn-linkedin{
