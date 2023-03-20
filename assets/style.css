@@ -3,3 +3,32 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header{
+    background-color: #0084FD;
+}
+
+nav{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.nav-logo img{
+    width: 80%;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+nav .nav-menu{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.nav-btn{
+    color: black;
+    background-color: white;
+}
