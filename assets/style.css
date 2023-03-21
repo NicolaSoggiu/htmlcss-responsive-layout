@@ -194,11 +194,26 @@ nav .nav-menu .a-btn {
     display: flex;
 }
 
+@media screen and (max-width: 480px){
+    .card-demo{
+        flex-direction: column;
+    }
+}
+
 .card-demo .demo-text {
     flex-basis: 70%;
     padding: 1rem;
     padding-bottom: 2rem;
     line-height: 1.5rem;
+}
+
+@media screen and (max-width: 480px){
+    .card-demo .demo-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 }
 
 .card-demo .demo-text .title-demo {
@@ -209,11 +224,28 @@ nav .nav-menu .a-btn {
     margin-bottom: 3rem;
 }
 
+@media screen and (max-width: 480px){
+    .title-demo{
+        font-size: 2rem;
+        padding-top: 1rem;
+    }
+
+    .title-card{
+        font-size: 2rem;
+    }
+}
+
 .card-demo .demo-text .apple-store {
     color: white;
     background-color: #0084FD;
     padding: .5rem;
     border-radius: 50px;
+}
+
+@media screen and (max-width: 480px) {
+    .apple-store {
+        font-size: 2rem;
+    }
 }
 
 .card-demo .demo-img {
@@ -227,6 +259,19 @@ nav .nav-menu .a-btn {
     right: 1;
     bottom: 0;
     
+}
+
+@media screen and (max-width: 480px) {
+    .card-demo .demo-img {
+        position: static;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .card-demo .demo-img img {
+        width: 80%;
+        position: static;
+    }
 }
 
 /* section strategic planning */
