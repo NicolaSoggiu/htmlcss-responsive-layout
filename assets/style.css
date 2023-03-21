@@ -41,6 +41,12 @@ nav {
     }
 }
 
+@media screen and (max-width: 480px){
+    nav{
+        width: 100%;
+    }
+}
+
 .nav-logo img {
     width: 80%;
     padding-top: .5rem;
@@ -109,6 +115,13 @@ nav .nav-menu .nav-btn {
     .container-function{
         width: 100%;
         justify-content: center;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .container-function{
+        flex-direction: column;
+        padding-inline: 1rem;
     }
 }
 
