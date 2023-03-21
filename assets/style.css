@@ -22,6 +22,7 @@ h4 {
 }
 
 @media screen and (max-width:480px) {
+
     h4 {
         text-align: center;
         margin-bottom: .5rem;
@@ -47,6 +48,7 @@ nav {
 }
 
 @media screen and (max-width: 850px) {
+
     nav {
         width: 100%;
         padding-left: 1.5rem;
@@ -54,6 +56,7 @@ nav {
 }
 
 @media screen and (max-width: 480px) {
+
     nav {
         width: 100%;
     }
@@ -63,6 +66,7 @@ nav {
     width: 80%;
     padding-top: .5rem;
     padding-bottom: .5rem;
+    padding-left: .5rem;
 }
 
 nav .nav-menu {
@@ -72,8 +76,9 @@ nav .nav-menu {
     padding-right: 3.7rem;
 }
 
-@media screen and (max-width: 850px){
-    nav .nav-menu{
+@media screen and (max-width: 850px) {
+
+    nav .nav-menu {
         position: relative;
     }
 }
@@ -120,6 +125,7 @@ nav .nav-menu .a-btn {
 }
 
 @media screen and (max-width: 480px) {
+
     .fa-bars{
         margin-right: -1.5rem;
     }
@@ -143,6 +149,7 @@ nav .nav-menu .a-btn {
 }
 
 @media screen and (max-width: 850px) {
+
     .container-function {
         width: 100%;
         justify-content: center;
@@ -150,6 +157,7 @@ nav .nav-menu .a-btn {
 }
 
 @media screen and (max-width: 480px){
+
     .container-function {
         flex-direction: column;
         padding-inline: 1rem;
@@ -190,11 +198,12 @@ nav .nav-menu .a-btn {
 }
 
 .container-function .card-demo {
-    flex-basis: 61.4%;   
+    flex-basis: 61.2%; /*fix*/  
     display: flex;
 }
 
 @media screen and (max-width: 480px){
+
     .card-demo{
         flex-direction: column;
     }
@@ -208,6 +217,7 @@ nav .nav-menu .a-btn {
 }
 
 @media screen and (max-width: 480px){
+
     .card-demo .demo-text {
         display: flex;
         flex-direction: column;
@@ -225,6 +235,7 @@ nav .nav-menu .a-btn {
 }
 
 @media screen and (max-width: 480px){
+
     .title-demo{
         font-size: 2rem;
         padding-top: 1rem;
@@ -243,6 +254,7 @@ nav .nav-menu .a-btn {
 }
 
 @media screen and (max-width: 480px) {
+
     .apple-store {
         font-size: 2rem;
     }
@@ -262,6 +274,7 @@ nav .nav-menu .a-btn {
 }
 
 @media screen and (max-width: 480px) {
+
     .card-demo .demo-img {
         position: static;
         display: flex;
@@ -285,6 +298,7 @@ nav .nav-menu .a-btn {
 }
 
 @media screen and (max-width: 850px) {
+
     .container-strategic {
         flex-direction: column;
         width: 90%;
@@ -343,6 +357,7 @@ nav .nav-menu .a-btn {
 }
 
 @media screen and (max-width: 850px){
+
     .strategic-title{
         font-size: 3rem;
     }
@@ -356,6 +371,7 @@ nav .nav-menu .a-btn {
 }
 
 @media screen and (max-width: 850px) {
+
     .partners {
         width: 100%;
     }
@@ -374,6 +390,7 @@ nav .nav-menu .a-btn {
 }
 
 @media screen and (max-width: 850px) {
+
     .container-partners {
         width: 90%;
     }
@@ -395,6 +412,7 @@ nav .nav-menu .a-btn {
 }
 
 @media screen and (max-width: 480px) {
+
     .container-partners .partner-card {
         flex-direction: column;
         align-items: center;
@@ -407,6 +425,7 @@ nav .nav-menu .a-btn {
 }
 
 @media screen and (max-width: 480px) {
+
     .partner-card .partner-img {
         padding: 0;
         margin-top: 1rem;
@@ -429,6 +448,7 @@ nav .nav-menu .a-btn {
 }
 
 @media  screen and (max-width: 480px) {
+
     .partner-card .partner-text .partner-description {
         text-align: center;
         padding-inline: .5rem;
@@ -450,6 +470,7 @@ nav .nav-menu .a-btn {
 }
 
 @media screen and (max-width: 850px) {
+
     .container-benefits {
         width: 90%;
     }
@@ -470,6 +491,7 @@ nav .nav-menu .a-btn {
 }
 
 @media screen and (max-width: 480px) {
+
     .points {
         flex-direction: column;
     }
@@ -485,6 +507,7 @@ nav .nav-menu .a-btn {
 }
 
 @media screen and (max-width: 850px) {
+
     .points .point {
         flex-basis: calc(100% / 2 - 1rem);
     }
@@ -536,12 +559,14 @@ nav .nav-menu .a-btn {
 }
 
 @media screen and (max-width: 850px) {
+
     .about-us {
         width: 90%;
     }
 }
 
 @media screen and (max-width: 480px) {
+
     .about-us {
         width: 90%;
         padding-inline: 0;
@@ -604,12 +629,14 @@ nav .nav-menu .a-btn {
 }
 
 @media screen and (max-width: 850px) {
+
     .container-try {
         width: 75%;
     }
 }
 
 @media screen and (max-width: 480px) {
+
     .container-try {
         width: 80%;
     }
@@ -668,6 +695,7 @@ footer .footer-text {
 }
 
 @media screen and (max-width: 850px) {
+
     footer .footer-text {
         width: 60%;
         text-align: center;
