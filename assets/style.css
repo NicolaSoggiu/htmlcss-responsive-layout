@@ -219,7 +219,10 @@ nav .nav-menu .nav-btn {
 @media screen and (max-width: 850px){
     .container-strategic{
         flex-direction: column;
-        width: 100%;
+        width: 90%;
+        padding: 0;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
     }
 }
 
@@ -444,6 +447,12 @@ nav .nav-menu .nav-btn {
     margin-bottom: 3rem;
     padding-right: 2rem;
     line-height: 2rem;
+}
+
+@media screen and (max-width: 850px){
+    .about-us{
+        width: 90%;
+    }
 }
 
 @media screen and (max-width: 480px){
