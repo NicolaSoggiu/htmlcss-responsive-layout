@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,24 +7,33 @@
 
 /* general */
 
-h3{
+h3 {
     padding-bottom: 1rem;
     padding-top: 1rem;
 }
 
-h4{
+h4 {
     padding-bottom: 1rem;
 }
 
 /* header */
 
-header{
+header {
     background-color: #0084FD;
 }
 
+/* @media screen and (max-width: 850px){
+
+    .header{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+} */
+
 /* nav */
 
-nav{
+nav {
     width: 70%;
     margin: auto;
     display: flex;
@@ -32,20 +41,21 @@ nav{
     align-items: center;
     color: white;
 }
-.nav-logo img{
+
+.nav-logo img {
     width: 80%;
     padding-top: .5rem;
     padding-bottom: .5rem;
 }
 
-nav .nav-menu{
+nav .nav-menu {
     display: flex;
     list-style: none;
     gap: 2rem;
     padding-right: 3.7rem;
 }
 
-nav .nav-menu .nav-btn{
+nav .nav-menu .nav-btn {
     color: black;
     background-color: white;
     padding-inline: .5rem;
@@ -53,16 +63,49 @@ nav .nav-menu .nav-btn{
     text-align: center;
 }
 
+@media screen and (max-width: 850px){
+
+    .menu-li, .nav-btn{
+        display: none;
+    }
+}
+
+.nav-bar {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    right: 0;
+    padding-right: 4rem;
+    display: none;
+}
+
+@media screen and (max-width: 850px){
+
+    .dropdown-menu{
+        display: block;
+        color: white;
+    }
+}
+
 /* main */
 
 /* section functions */
 
-.functions{
+.functions {
     margin-top: 2.5rem;
     margin-bottom: 3.5rem;
 }
 
-.container-function{
+/* @media screen and (max width: 850px){
+    
+    .funtions{
+        width: 100%;
+    }
+} */
+
+.container-function {
     width: 70%;
     margin: auto;
     display: flex;
@@ -70,12 +113,12 @@ nav .nav-menu .nav-btn{
     gap: 1rem;
 }
 
-.container-function .card, .card-demo{
+.container-function .card, .card-demo {
     background-color: #B5DDFF;
     border-radius: 10px;
 }
 
-.container-function .card{
+.container-function .card {
     flex-basis: calc(100% / 3 - 2rem);
     display: flex;
     flex-direction: column;
@@ -84,18 +127,18 @@ nav .nav-menu .nav-btn{
     line-height: 1.5rem;
 }
 
-.card .fa-solid{
+.card .fa-solid {
     font-size: 3rem;
     color: #0084FD;
     padding-bottom: 1rem;
     padding-top: 1rem;
 }
 
-.card .title-card{
+.card .title-card {
     color: #0084FD;
 }
 
-.card .paragraph-card{
+.card .paragraph-card {
     font-size: .8rem;
     text-align: center;
     padding-top: 1rem;
@@ -103,39 +146,39 @@ nav .nav-menu .nav-btn{
     padding-inline: 1rem;
 }
 
-.container-function .card-demo{
+.container-function .card-demo {
     flex-basis: 61.4%; /*da sistemare la larghezza*/   
     display: flex;
 }
 
-.card-demo .demo-text{
+.card-demo .demo-text {
     flex-basis: 70%;
     padding: 1rem;
     padding-bottom: 2rem;
     line-height: 1.5rem;
 }
 
-.card-demo .demo-text .title-demo{
+.card-demo .demo-text .title-demo {
     color: #0084FD;
 }
 
-.card-demo .demo-text .lorem-demo{
+.card-demo .demo-text .lorem-demo {
     margin-bottom: 3rem;
 }
 
-.card-demo .demo-text .apple-store{
+.card-demo .demo-text .apple-store {
     color: white;
     background-color: #0084FD;
     padding: .5rem;
     border-radius: 50px;
 }
 
-.card-demo .demo-img{
+.card-demo .demo-img {
     flex-basis: 30%;
     position: relative;
 }
 
-.card-demo .demo-img img{
+.card-demo .demo-img img {
     width: 80%;
     position: absolute;
     right: 1;
@@ -145,7 +188,7 @@ nav .nav-menu .nav-btn{
 
 /* section strategic planning */
 
-.container-strategic{
+.container-strategic {
     width: 70%;
     margin: auto;
     display: flex;
@@ -153,23 +196,23 @@ nav .nav-menu .nav-btn{
     padding: 5rem;
 }
 
-.strategic-planning{
+.strategic-planning {
     background-color: #9792E4;
 }
 
-.container-strategic .strategic-img{
+.container-strategic .strategic-img {
     text-align: left;
     color: white;
     flex-basis: 50%;
     line-height: 1.5rem;
 }
 
-.container-strategic .strategic-img img{
+.container-strategic .strategic-img img {
     width: 100%;
     padding-bottom: 3rem;
 }
 
-.container-strategic .app-developement{
+.container-strategic .app-developement {
     background-color: white;
     height: max-content;
     text-align: center;
@@ -183,11 +226,11 @@ nav .nav-menu .nav-btn{
     line-height: 1.5rem;
 }
 
-.container-strategic .app-developement img{
+.container-strategic .app-developement img {
     width: 100%;
 }
 
-.fa-arrow-down{
+.fa-arrow-down {
     color: black;
     background-color: #9792E4;
     border-radius: 40px;
@@ -196,14 +239,14 @@ nav .nav-menu .nav-btn{
 
 }
 
-.container-strategic .strategic-img .strategic-title{
+.container-strategic .strategic-img .strategic-title {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
 }
 
 /* section partners */
 
-.container-partners{
+.container-partners {
     flex-direction: column;
     align-items: center;
     width: 70%;
@@ -214,27 +257,27 @@ nav .nav-menu .nav-btn{
     margin-bottom: 3rem;
 }
 
-.container-partners .title-partners{
+.container-partners .title-partners {
     color: #9792E4;
 }
 
-.container-partners > p{
+.container-partners > p {
     text-align: center;
 }
 
-.container-partners .partner-card{
+.container-partners .partner-card {
     display: flex;
     color: white;
     background-color: #9792E4;
     border-radius: 20px;
 }
 
-.partner-card .partner-img{
+.partner-card .partner-img {
     flex-basis: 40%;
     padding-right: 2rem;
 }
 
-.partner-card .partner-img img{
+.partner-card .partner-img img {
     width: 200px;
     height: 200px;
     border-radius: 100px;
@@ -242,7 +285,7 @@ nav .nav-menu .nav-btn{
     padding: 1rem;
 }
 
-.partner-card .partner-text .partner-description{
+.partner-card .partner-text .partner-description {
     padding-top: 3rem;
     padding-bottom: 2rem;
     font-size: 1rem;
@@ -252,23 +295,23 @@ nav .nav-menu .nav-btn{
 
 /* section benefits */
 
-.benefits{
+.benefits {
     background-color: #9792E4;
 }
 
-.container-benefits{
+.container-benefits {
     width: 70%;
     margin: auto;
     padding-bottom: 3rem;
 }
 
-.container-benefits .benefit-title{
+.container-benefits .benefit-title {
     color: white;
     text-align: center;
     padding-top: 2rem;
 }
 
-.points{
+.points {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
@@ -276,7 +319,7 @@ nav .nav-menu .nav-btn{
     justify-content: space-between;
 }
 
-.points .point{
+.points .point {
     flex-basis: calc(100% / 3 - 1rem);
     border-radius: 20px;
     background-color: white;
@@ -285,31 +328,31 @@ nav .nav-menu .nav-btn{
     line-height: 1.5rem;
 }
 
-.points .point > .fa-solid{
+.points .point > .fa-solid {
     color: #9792E4;
     font-size: 2rem;
     padding-bottom: 1rem;
 }
 
-.points .point > h5{
+.points .point > h5 {
     color: #9792E4;
     font-size: 1.2rem;
     padding-bottom: 1rem;
 }
 
-.points .point .fa-0{
+.points .point .fa-0 {
     padding-right: .5rem;
 }
 
-.points .point > p{
+.points .point > p {
     padding-bottom: 2rem;
 }
 
-.btn-benefits{
+.btn-benefits {
     padding-bottom: 2rem;
 }
 
-.btn-benefits .btn-more{
+.btn-benefits .btn-more {
     background-color: #9792E4;
     color: white;
     border-radius: 20px;
@@ -320,7 +363,7 @@ nav .nav-menu .nav-btn{
 
 /* section about-us */
 
-.about-us{
+.about-us {
     width: 70%;
     margin: auto;
     display: flex;
@@ -330,41 +373,40 @@ nav .nav-menu .nav-btn{
     line-height: 2rem;
 }
 
-.about-us .about-text{
+.about-us .about-text {
     flex-basis: 70%;
     padding-right: 2rem;
 }
 
-.about-us .about-text > h2{
+.about-us .about-text > h2 {
     color: #9792E4;
     padding-bottom: 2rem;
 }
 
-.about-us .about-text > p{
+.about-us .about-text > p {
     padding-bottom: 2rem;
 }
 
-.about-us .about-profile{
+.about-us .about-profile {
     flex-basis: 30%;
 }
 
-.about-us .about-profile > p{
+.about-us .about-profile > p {
     color: #9792E4;
     font-size: 1.2rem;
+    padding-top: 1rem;
     padding-bottom: 1.5rem;
     text-align: left;
 }
 
-.about-us .about-profile img{
-    width: 60%;
-    padding-bottom: 1rem;
+.about-us .about-profile img {
     width: 200px;
     height: 200px;
     border-radius: 50%; /*capire come fare il bordo*/
     object-fit: cover;
 }
 
-.about-us .about-profile .btn-linkedin{
+.about-us .about-profile .btn-linkedin {
     background-color: #9792E4;
     color: white;
     padding: .5rem;
@@ -373,29 +415,29 @@ nav .nav-menu .nav-btn{
 
 /* section try */
 
-.try{
+.try {
     background-color: #9792E4;
     padding-bottom: 2rem;
 }
 
-.container-try{
+.container-try {
     width: 30%;
     margin: auto;
     padding-top: 3rem;
     text-align: center;
 }
 
-.container-try .text-try{
+.container-try .text-try {
     color: grey;
 }
 
-.container-try > h4{
+.container-try > h4 {
     color: white;
     font-size: 1.3rem;
     padding-top: 1rem;
 }
 
-.container-try > h2{
+.container-try > h2 {
     color: #FDC15F;
     font-size: 3rem;
     padding-bottom: 1rem;
@@ -406,12 +448,12 @@ nav .nav-menu .nav-btn{
     font-size: .9rem;
 }
 
-.container-try .started{
+.container-try .started {
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
 
-.btn-try{
+.btn-try {
     color: #9792E4;
     background-color: white;
     padding-inline: 2.5rem;
@@ -422,23 +464,23 @@ nav .nav-menu .nav-btn{
 
 /* footer */
 
-footer{
+footer {
     background-color: #333333;
     color: white;
 }
 
-footer .footer-text{
+footer .footer-text {
     width: 30%;
     margin: auto;
     padding-top: 2rem;
 }
 
-.footer-text .second-paragraph{
+.footer-text .second-paragraph {
     padding-top: 2rem;
     text-align: center;
     padding-bottom: 2rem;
 }
 
-.footer-text .second-paragraph > a{
+.footer-text .second-paragraph > a {
     color: #9792E4;
 }
