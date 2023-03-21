@@ -566,6 +566,13 @@ footer .footer-text {
     padding-top: 2rem;
 }
 
+@media screen and (max-width: 850px){
+    footer .footer-text{
+        width: 90%;
+        text-align: center;
+    }
+}
+
 .footer-text .second-paragraph {
     padding-top: 2rem;
     text-align: center;
