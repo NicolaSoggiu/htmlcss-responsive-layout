@@ -360,6 +360,12 @@ nav .nav-menu .nav-btn {
     padding-bottom: 3rem;
 }
 
+@media screen and (max-width: 850px){
+    .container-benefits{
+        width: 90%;
+    }
+}
+
 .container-benefits .benefit-title {
     color: white;
     text-align: center;
@@ -369,9 +375,15 @@ nav .nav-menu .nav-btn {
 .points {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 1.5rem;
     padding-top: 3rem;
     justify-content: space-between;
+}
+
+@media screen and (max-width: 480px){
+    .points{
+        flex-direction: column;
+    }
 }
 
 .points .point {
@@ -381,6 +393,12 @@ nav .nav-menu .nav-btn {
     padding-top: 2rem;
     padding-inline: 1.5rem;
     line-height: 1.5rem;
+}
+
+@media screen and (max-width: 850px){
+    .points .point{
+        flex-basis: calc(100% / 2 - 1rem);
+    }
 }
 
 .points .point > .fa-solid {
