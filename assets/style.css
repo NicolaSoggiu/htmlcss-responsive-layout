@@ -446,6 +446,12 @@ nav .nav-menu .nav-btn {
     line-height: 2rem;
 }
 
+@media screen and (max-width: 480px){
+    .about-us{
+        flex-direction: column;
+    }
+}
+
 .about-us .about-text {
     flex-basis: 70%;
     padding-right: 2rem;
