@@ -208,6 +208,13 @@ nav .nav-menu .nav-btn {
     padding: 5rem;
 }
 
+@media screen and (max-width: 850px){
+    .container-strategic{
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
 .strategic-planning {
     background-color: #9792E4;
 }
