@@ -506,6 +506,18 @@ nav .nav-menu .nav-btn {
     text-align: center;
 }
 
+@media screen and (max-width: 850px){
+    .container-try{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .container-try{
+        width: 90%;
+    }
+}
+
 .container-try .text-try {
     color: grey;
 }
